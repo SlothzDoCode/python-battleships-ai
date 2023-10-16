@@ -78,6 +78,43 @@ if carrier_rotation == 1:
         boardRow1[7] = "■"
         boardRow1[8] = "■"
         boardRow1[9] = "■"
+elif carrier_rotation == 2:
+    if carrier_spot == 1:
+        boardRow1[0] = "■"
+        boardRow2[0] = "■"
+        boardRow3[0] = "■"
+        boardRow4[0] = "■"
+        boardRow5[0] = "■"
+    elif carrier_spot == 2:
+        boardRow2[0] = "■"
+        boardRow3[0] = "■"
+        boardRow4[0] = "■"
+        boardRow5[0] = "■"
+        boardRow6[0] = "■"   
+    elif carrier_spot == 3:
+        boardRow3[0] = "■"
+        boardRow4[0] = "■"
+        boardRow5[0] = "■"
+        boardRow6[0] = "■"
+        boardRow7[0] = "■"        
+    elif carrier_spot == 4:
+        boardRow4[0] = "■"
+        boardRow5[0] = "■"
+        boardRow6[0] = "■"
+        boardRow7[0] = "■"
+        boardRow8[0] = "■"  
+    elif carrier_spot == 5:
+        boardRow5[0] = "■"
+        boardRow6[0] = "■"
+        boardRow7[0] = "■"
+        boardRow8[0] = "■"
+        boardRow9[0] = "■" 
+    elif carrier_spot == 2:
+        boardRow6[0] = "■"
+        boardRow7[0] = "■"
+        boardRow8[0] = "■"
+        boardRow9[0] = "■"
+        boardRow10[0] = "■"         
             
 print(boardRow1)
 print(boardRow2)
