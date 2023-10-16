@@ -37,12 +37,47 @@ cruiser = 3
 Submarine = 3
 destroyer = 2
 
-carrier_spotH = random.randint(1,10)
-carrier_spotV = random.randint(1,10)
+carrier_spot = random.randint(1,6)
+
 carrier_rotation = random.randint(1,2)
 
-if carrier_spotH == 1:
-    ()
+if carrier_rotation == 1:
+    if carrier_spot == 1:
+        boardRow1[0] = "■"
+        boardRow1[1] = "■"
+        boardRow1[2] = "■"
+        boardRow1[3] = "■"
+        boardRow1[4] = "■"
+    elif carrier_spot == 2:
+        boardRow1[1] = "■"
+        boardRow1[2] = "■"
+        boardRow1[3] = "■"
+        boardRow1[4] = "■"
+        boardRow1[5] = "■"
+    elif carrier_spot == 3:
+        boardRow1[2] = "■"
+        boardRow1[3] = "■"
+        boardRow1[4] = "■"
+        boardRow1[5] = "■"
+        boardRow1[6] = "■"
+    elif carrier_spot == 4:
+        boardRow1[3] = "■"
+        boardRow1[4] = "■"
+        boardRow1[5] = "■"
+        boardRow1[6] = "■"
+        boardRow1[7] = "■"        
+    elif carrier_spot == 5:
+        boardRow1[4] = "■"
+        boardRow1[5] = "■"
+        boardRow1[6] = "■"
+        boardRow1[7] = "■"
+        boardRow1[8] = "■"   
+    elif carrier_spot == 6:
+        boardRow1[5] = "■"
+        boardRow1[6] = "■"
+        boardRow1[7] = "■"
+        boardRow1[8] = "■"
+        boardRow1[9] = "■"
             
 print(boardRow1)
 print(boardRow2)
